@@ -6,7 +6,7 @@
 x=x';
 
 % Carrier frequency in Hz
-freq_carrier =20e3;
+freq_carrier =10e3;
 
 % Cutoff frequency in Hz for the low pass filter
 freq_cutoff = 4e3;
