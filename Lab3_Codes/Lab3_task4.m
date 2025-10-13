@@ -21,7 +21,7 @@ t=0:Ts:Tmax;
 
 % initialize the frequencies
 freq_cutoff = 4e3;
-freq_carrier = [0e3 0e3 0e3]; % carrier frequencies for FDM
+freq_carrier = [15e3 40e3 60e3]; % carrier frequencies for FDM
 
 
 % % % % % % % %

@@ -15,8 +15,8 @@ rx_wave = txrx(tx_wave,1,'ideal');
 % Receiver %
 % % % % % % %
 % % % % Revise the following code % % % %
-freq_carrier = 0e3;           % Find the carrier frequency
-freq_cutoff = 0e3;            % Find the cutoff frequency of the low pass filter(BW of the original signal)
+freq_carrier = 10e3;           % Find the carrier frequency
+freq_cutoff = 4e3;            % Find the cutoff frequency of the low pass filter(BW of the original signal)
 
 % % % % Do not change the code below % % % %
 

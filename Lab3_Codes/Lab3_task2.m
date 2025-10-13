@@ -15,7 +15,7 @@ xm = modulate(x,Fs,freq_carrier);
 % % % % % %
 rx_wave = txrx(xm,1,'ideal');
 % demodulate the carrier using x_mod
-[rx,xd] = demodulate(rx_wave,Fs,1.000*freq_carrier,freq_cutoff);
+[rx,xd] = demodulate(rx_wave,Fs,1.001*freq_carrier,freq_cutoff);
 
 % plays the demodulated signal rx
 sound(rx, Fs); 
